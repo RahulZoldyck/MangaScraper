@@ -11,7 +11,7 @@ qa=0
 print "anime name : "
 an=raw_input()
 an=an.lower()
-an.replace (" ", "_")
+an=an.replace (" ", "_")
 print "from chapter : "
 lo=raw_input()
 print "to chapter : "
