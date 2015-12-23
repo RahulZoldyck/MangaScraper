@@ -9,7 +9,7 @@ import os
 socket.getaddrinfo('localhost', 8080)
 test=1
 qa=0
-print "anime name : "
+print "Manga name : "
 an=raw_input()
 path=an
 os.makedirs(path)
