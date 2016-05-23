@@ -12,7 +12,10 @@ qa=0
 print "Manga name : "
 an=raw_input()
 path=an
-os.makedirs(path)
+try:
+    os.makedirs(path)
+except:
+    print "already there!"
 an=an.lower()
 an=an.replace (" ", "_")
 print "from chapter : "
